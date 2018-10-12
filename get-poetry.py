@@ -220,7 +220,7 @@ class Installer:
                 self.call(
                     self.CURRENT_PYTHON,
                     "-m",
-                    "pip",
+                    "pip3",
                     "install",
                     "poetry=={}".format(version),
                     "--target",
@@ -236,7 +236,7 @@ class Installer:
                     self.call(
                         self.CURRENT_PYTHON,
                         "-m",
-                        "pip",
+                        "pip3",
                         "install",
                         "poetry=={}".format(version),
                         "--user",
@@ -303,7 +303,7 @@ class Installer:
             self.call(
                 self.CURRENT_PYTHON,
                 "-m",
-                "pip",
+                "pip3",
                 "install",
                 "--upgrade",
                 "--no-deps",
